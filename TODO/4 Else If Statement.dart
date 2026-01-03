@@ -1,5 +1,3 @@
-import 'dart:io' show stdin;
-
 main(){
   int score = 50;
 
