@@ -16,7 +16,8 @@ calculateBMI(double weight, double height) {
 
 main(){
   var BMIvalue = calculateBMI(73.5, 1.77);
-  print("Your BMI is: $BMIvalue");
+  var decBMI = BMIvalue.toStringAsFixed(2);
+  print("Your BMI is: $decBMI");
   getBMICategory(BMIvalue);
 
 }
